@@ -1,0 +1,40 @@
+body {
+    background-color: slategray;
+    color: rgb(54, 54 ,54) ;
+}
+h1 {
+     text-align: center;
+}
+.row {
+    margin: auto;
+    text-align: center;
+}     
+.row a {
+    display: inline-block;
+    color:  lightgray;
+    padding: 5px 10px;
+    transition: transform 0.3s;
+}
+.row a:hover {
+    transform: scale(1.25);
+}
+main p{
+    text-align: center;
+    margin-top: 50px;
+}
+main p a{
+    color: rgb(79, 79, 79);
+}
+div img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.cover {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+#foto1 {
+    object-fit: cover;
+    object-position: 50% 15%;
+}

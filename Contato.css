@@ -1,0 +1,27 @@
+body {
+    background-color: slategray;
+    color: rgb(54, 54 ,54) ;
+}
+h1 {
+     text-align: center;
+}
+.row {
+    margin: auto;
+    text-align: center;
+}      /*Estes .row são referentes a página de contatos*/
+.row a {
+    display: inline-block;
+    color:  lightskyblue;
+    padding: 5px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    transition: trasform 0.3;
+}
+
+.row a:hover {
+    transform: scale(1.25);
+}
+#menu1, #menu2, #menu3, #menu4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+

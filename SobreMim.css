@@ -1,0 +1,56 @@
+body {
+    background-color: slategray;
+    color: rgb(54, 54, 54) ;
+}
+h1 {
+     text-align: center;
+}
+.row {
+    margin: auto;
+    text-align: center;
+}     
+.row a {
+    display: inline-block;
+    color: lightgray;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.row a:hover {
+    transform: scale(1.25);
+}
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+p a {
+    color: black;
+}
+div img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.cover {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+ul {
+    text-align: center;
+    margin: 20px;
+}
+#foto1 {
+    object-fit: cover;
+    object-position: 00 -40px;
+}
+#foto3 {
+    object-fit: cover;
+    object-position: 00 25%;
+}
+#foto6 {
+    object-fit: cover;
+    object-position: 00 10%;
+}
+#foto7, #foto9 {
+    object-fit: cover;
+    object-position: 00 1%;
+}
